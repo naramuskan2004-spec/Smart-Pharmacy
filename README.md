@@ -3,13 +3,13 @@ A backend system that manages pharmacy inventory using FastAPI, SQLite, and QR c
 It enables smart tracking of medicines, expiry dates, and stock levels through QR-based identification.
 
 # Features
-📦 Add and manage medicines in inventory
-🔍 QR code generation for each medicine
-📱 Scan QR to retrieve medicine details instantly
-⏳ Track expiry dates of medicines
-⚠️ Basic stock and expiry monitoring system
-⚡ FastAPI-based RESTful backend
-🗄️ SQLite database for lightweight storage
+ Add and manage medicines in inventory
+ QR code generation for each medicine
+ Scan QR to retrieve medicine details instantly
+ Track expiry dates of medicines
+ Basic stock and expiry monitoring system
+ FastAPI-based RESTful backend
+ SQLite database for lightweight storage
 
 # Tech Stack
 Python
@@ -31,20 +31,17 @@ backend/
     └── database.py
 
 # Installation & Setup
-#Clone repository
-git clone https://github.com/your-username/your-repo-name.git
-
 cd backend
 
-#Create virtual environment
+# Create virtual environment
 python -m venv venv
 source venv/bin/activate   # (Linux/Mac)
 venv\Scripts\activate      # (Windows)
 
-#Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-#Run FastAPI server
+# Run FastAPI server
 uvicorn app.main:app --reload
 
 # API Documentation
